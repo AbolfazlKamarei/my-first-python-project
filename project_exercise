@@ -1,0 +1,41 @@
+number1 = 1
+count = 2
+number2 = 3
+score = 1
+plus = number1 + number2 + count + score
+print(plus)
+print(type(score))
+my_name1 = '''
+abolfazl
+kamarei
+is
+here
+
+'''
+print(my_name1)
+
+my_name2 = "abolfazl \"kamarei"
+print(my_name2)
+
+my_name3 = "abolafzl \n kamarei"
+print(my_name3)
+print(len(my_name2))
+print(my_name2[:10])
+
+
+name1 = "aBolfaZl"
+name2 = "kAmarei"
+fulll = name1 + " " + name2
+print(fulll)
+
+name3 = f"{name2} {name1}"
+print(name3)
+print(name1.upper())
+print(name1.title())
+
+
+name4 = " abc    "
+print(name4.strip())
+# rstrip and lstrip @@@@@@
+
+print(name4.find("b"))
